@@ -3,11 +3,11 @@ package main
 import (
 	"flag"
 
-	"github.com/tomas-sesztak/go-utils/argparse/services"
+	"github.com/tomas-sesztak/go-utils/argparse"
 )
 
 func main() {
 	flag.Int("testInt", 8, "value of testing int")
 
-	services.ParseArgs(false, true)
+	argparse.ParseArgs(false, true)
 }
