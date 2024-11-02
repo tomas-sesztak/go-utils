@@ -8,6 +8,6 @@ import (
 
 // show the standard help/usage message
 func Help() {
-	fmt.Fprintf(os.Stderr, "Usage of %s", os.Args[0])
+	fmt.Fprintf(os.Stderr, "Usage of %s\n", os.Args[0])
 	flag.PrintDefaults()
 }
