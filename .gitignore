@@ -1,0 +1,13 @@
+### Zsh ###
+# Zsh compiled script + zrecompile backup
+*.zwc
+*.zwc.old
+**/*.zwc
+**/*.zwc.old
+
+# Mac
+.DS_Store
+**/.DS_Store
+
+# Project specific
+pkg
